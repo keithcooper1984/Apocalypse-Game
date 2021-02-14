@@ -25,15 +25,13 @@ Class ApocDisp
  *  @author Keith Cooper
  *  @version 15/02/2021
  *  requires classes Character.Java and Monster.Java to work
- *  requires jpg images titled 	"apocalypse", "monster image", "victory", "farmhouse", 
- *  							"pup", "Forest", "fishing", "camp" & "Facility"
+ *  requires jpg images titled 	"apocalypse", "monster image", "victory", "farmhouse", "pup", "Forest", "fishing", "camp" & "Facility"
  *  main and start methods are only used to declare Character(player) object
  *  Character(player) object is passed to each method in turn: 
  *  	it is the only object into each method
  *  	it is the only object out of each method
  *  Character(player) object has attributes changed within each method
- *  Victory conditions are to reach (xpos 0 , ypos 0) or (xpos 10 , ypos 0) or (xpos 0 , ypos 10) or (xpos 10 , ypos 10)
- *  	as defined in player.xpos & player.ypos
+ *  Victory conditions are to reach (xpos 0 , ypos 0) or (xpos 10 , ypos 0) or (xpos 0 , ypos 10) or (xpos 10 , ypos 10) as defined in player.xpos & player.ypos
  *  Methods (scenes) used are: 
  *  	startStage 		- 	beginning of story, only used once
  *  	navigationStage	- 	contains movement buttons. Called repeatedly. Uses checkwin() method 
